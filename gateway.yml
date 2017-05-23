@@ -32,7 +32,7 @@ zuul:
       stripPrefix: false
 
     hmd-box:
-      path: /mvs/getMvInfo
+      path: /mvs/**
       serviceId: hmd-box
       url: http://47.88.85.127:11009
       stripPrefix: false
