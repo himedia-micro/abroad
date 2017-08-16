@@ -22,15 +22,15 @@ zuul:
     mvs-consumer:
       path: /mvs-consumer/**
       serviceId: mvs-consumer
-      url: http://112.124.96.140:11008
+      url: http://47.88.1.237:11008
       stripPrefix: false
 
     hmd-box:
       path: /hmd-box/**
       serviceId: hmd-box
-      url: http://47.88.85.127:11009
+      url: http://47.88.1.237:11009
       stripPrefix: false
 
 
 server:
-  port: 80
+  port: 10080
