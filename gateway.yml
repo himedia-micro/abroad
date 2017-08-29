@@ -28,7 +28,7 @@ zuul:
     hmd-box:
       path: /hmd-box/**
       serviceId: hmd-box
-      url: http://47.88.1.237:11009
+      url: http://localhost:11009
       stripPrefix: false
 
 
