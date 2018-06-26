@@ -11,7 +11,8 @@ spring:
       min-idle: 0
     timeout: 0
   datasource:
-    url: jdbc:mysql://rm-rj9674ua4ug74pnqt.mysql.rds.aliyuncs.com:3306/hmd?useUnicode=true&amp;characterEncoding=UTF-8
+     url: jdbc:mysql://rm-rj9674ua4ug74pnqt650.mysql.rds.aliyuncs.com:3306/hmd?useUnicode=true&amp;characterEncoding=UTF-8
+    #url: jdbc:mysql://rm-rj9674ua4ug74pnqt.mysql.rds.aliyuncs.com:3306/hmd?useUnicode=true&amp;characterEncoding=UTF-8
   #  url: jdbc:mysql://rdsvebirzvebirzo.mysql.rds.aliyuncs.com:3306/micro-mvs
     username: hmd
     password: himedia@123
