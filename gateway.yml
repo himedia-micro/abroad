@@ -30,7 +30,11 @@ zuul:
       serviceId: hmd-box
       url: http://localhost:11009
       stripPrefix: false
-
+      
+    firmware-service:
+      path: /fw/**
+      serviceId: firmware-service
+      stripPrefix: false
 
 server:
   port: 10080
